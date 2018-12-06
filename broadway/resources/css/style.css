@@ -3,7 +3,7 @@ html, body {
     font-family: Helvetica, sans-serif;
 }
 
-.jumbotron {
+.jumbotron, .banner {
     background: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png") center center no-repeat;
     background-size: cover;
     color: white;
@@ -12,4 +12,33 @@ html, body {
 h1 {
     font-size: 70px;
     font-weight: bold;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.supporting-content p {
+    font-size: 14px;
+}
+
+footer {
+    background-color: dimgray;
+    text-align: left;
+    color: white;
+}
+
+footer p {
+    font-size: 11px;
+}
+
+footer a {
+    color: white;
+    font-size: 18px;
 }
